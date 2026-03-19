@@ -59,6 +59,7 @@
                     android:textColor="@color/hope_green_700" />
 
                 <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilUserEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
@@ -72,6 +73,7 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilUserPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
@@ -135,6 +137,7 @@
                     android:textColor="@color/hope_blue_700" />
 
                 <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilNgoEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
@@ -148,6 +151,7 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilNgoPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
