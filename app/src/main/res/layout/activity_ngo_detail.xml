@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hope_bg">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarNgoDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/hope_card"
+        app:title="NGO Detail"
+        app:titleTextColor="@color/hope_blue_700"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollNgoDetail"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbarNgoDetail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardNgoHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/hope_card"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/ivNgoDetail"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@android:drawable/ic_menu_gallery"
+                        android:contentDescription="@string/app_name" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="12dp">
+
+                        <TextView
+                            android:id="@+id/tvNgoNameDetail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NGO Name"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="@color/hope_blue_700" />
+
+                        <TextView
+                            android:id="@+id/tvNgoCategoryDetail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Category"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="4dp" />
+
+                        <TextView
+                            android:id="@+id/tvNgoLocationDetail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Location"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="2dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/tvNeedsHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Needs"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="18dp"
+                android:textColor="@color/hope_green_700" />
+
+            <LinearLayout
+                android:id="@+id/llNeeds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/tvCampaignsHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Campaigns"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="18dp"
+                android:textColor="@color/hope_green_700" />
+
+            <LinearLayout
+                android:id="@+id/llCampaigns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="18dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnVolunteer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Volunteer"
+                    android:backgroundTint="@color/hope_green_500" />
+
+                <Space
+                    android:layout_width="12dp"
+                    android:layout_height="wrap_content" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnDonate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Donate"
+                    android:backgroundTint="@color/hope_blue_500" />
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnViewEvents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Events"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/hope_blue_700"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

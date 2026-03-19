@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navNgos"
+        android:title="NGOs Nearby"
+        android:icon="@android:drawable/ic_menu_compass" />
+    <item
+        android:id="@+id/navFoodRescue"
+        android:title="Food Rescue"
+        android:icon="@android:drawable/ic_menu_camera" />
+    <item
+        android:id="@+id/navVolunteer"
+        android:title="Volunteer"
+        android:icon="@android:drawable/ic_menu_add" />
+    <item
+        android:id="@+id/navEvents"
+        android:title="Events"
+        android:icon="@android:drawable/ic_menu_today" />
+    <item
+        android:id="@+id/navDonate"
+        android:title="Donate"
+        android:icon="@android:drawable/ic_menu_send" />
+</menu>

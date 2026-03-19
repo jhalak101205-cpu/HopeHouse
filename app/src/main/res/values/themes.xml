@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.HopeHouse" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/hope_blue_700</item>
+        <item name="colorPrimaryVariant">@color/hope_blue_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/hope_green_700</item>
+        <item name="colorSecondaryVariant">@color/hope_green_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Screen background -->
+        <item name="android:windowBackground">@color/hope_bg</item>
+        <item name="android:colorBackground">@color/hope_bg</item>
+    </style>
+</resources>
