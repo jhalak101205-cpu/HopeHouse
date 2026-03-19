@@ -1,0 +1,210 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hopehouse"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <permission
+11-->[androidx.core:core:1.13.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/ada6f022543c84b4ff39f17d9ea008d0/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.hopehouse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/ada6f022543c84b4ff39f17d9ea008d0/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/ada6f022543c84b4ff39f17d9ea008d0/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.hopehouse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/ada6f022543c84b4ff39f17d9ea008d0/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/ada6f022543c84b4ff39f17d9ea008d0/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:5:5-63:19
+18        android:allowBackup="true"
+18-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.13.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/ada6f022543c84b4ff39f17d9ea008d0/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+22-->INJECTED
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.HopeHouse" >
+29-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:13:9-47
+30        <activity
+30-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:14:9-17:52
+31            android:name="com.example.hopehouse.ui.activities.ProfileActivity"
+31-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:15:17-62
+32            android:exported="false"
+32-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:16:17-41
+33            android:label="@string/app_name" />
+33-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:17:17-49
+34        <activity
+34-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:18:13-21:52
+35            android:name="com.example.hopehouse.ui.activities.DonationActivity"
+35-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:19:17-63
+36            android:exported="false"
+36-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:20:17-41
+37            android:label="@string/app_name" />
+37-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:21:17-49
+38        <activity
+38-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:22:13-25:52
+39            android:name="com.example.hopehouse.ui.activities.EventsActivity"
+39-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:23:17-61
+40            android:exported="false"
+40-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:24:17-41
+41            android:label="@string/app_name" />
+41-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:25:17-49
+42        <activity
+42-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:26:13-29:52
+43            android:name="com.example.hopehouse.ui.activities.VolunteerActivity"
+43-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:27:17-64
+44            android:exported="false"
+44-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:28:17-41
+45            android:label="@string/app_name" />
+45-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:29:17-49
+46        <activity
+46-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:30:13-33:52
+47            android:name="com.example.hopehouse.ui.activities.FoodRescueActivity"
+47-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:31:17-65
+48            android:exported="false"
+48-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:32:17-41
+49            android:label="@string/app_name" />
+49-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:33:17-49
+50        <activity
+50-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:34:13-37:52
+51            android:name="com.example.hopehouse.ui.activities.NgoDetailActivity"
+51-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:35:17-64
+52            android:exported="false"
+52-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:36:17-41
+53            android:label="@string/app_name" />
+53-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:37:17-49
+54        <activity
+54-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:38:13-41:52
+55            android:name="com.example.hopehouse.ui.activities.NgoListingActivity"
+55-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:39:17-65
+56            android:exported="false"
+56-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:40:17-41
+57            android:label="@string/app_name" />
+57-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:41:17-49
+58        <activity
+58-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:42:13-45:52
+59            android:name="com.example.hopehouse.ui.activities.HomeActivity"
+59-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:43:17-59
+60            android:exported="false"
+60-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:44:17-41
+61            android:label="@string/app_name" />
+61-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:45:17-49
+62        <activity
+62-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:47:13-50:52
+63            android:name="com.example.hopehouse.ui.activities.SignupActivity"
+63-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:48:17-61
+64            android:exported="false"
+64-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:49:17-41
+65            android:label="@string/app_name" />
+65-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:50:17-49
+66        <activity
+66-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:52:13-62:24
+67            android:name="com.example.hopehouse.MainActivity"
+67-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:53:17-45
+68            android:exported="true"
+68-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:54:17-40
+69            android:label="@string/app_name"
+69-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:55:17-49
+70            android:theme="@style/Theme.HopeHouse" >
+70-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:56:17-55
+71            <intent-filter>
+71-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:57:17-61:33
+72                <action android:name="android.intent.action.MAIN" />
+72-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:58:21-73
+72-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:58:29-70
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:60:21-81
+74-->/Users/jaykay/AndroidStudioProjects/HopeHouse/app/src/main/AndroidManifest.xml:60:31-78
+75            </intent-filter>
+76        </activity>
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.3.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/93c6a572b1384838221f8fbc4300b15f/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.3.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/93c6a572b1384838221f8fbc4300b15f/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+80            android:authorities="com.example.hopehouse.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.3.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/93c6a572b1384838221f8fbc4300b15f/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.3.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/93c6a572b1384838221f8fbc4300b15f/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.3.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/93c6a572b1384838221f8fbc4300b15f/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.3.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/93c6a572b1384838221f8fbc4300b15f/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.3.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/93c6a572b1384838221f8fbc4300b15f/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/jaykay/.gradle/caches/9.3.1/transforms/cc41744af40328bee80e86c787e9c0cc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/jaykay/.gradle/caches/9.3.1/transforms/cc41744af40328bee80e86c787e9c0cc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/jaykay/.gradle/caches/9.3.1/transforms/cc41744af40328bee80e86c787e9c0cc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+90                android:value="androidx.startup" />
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+91        </provider>
+92
+93        <receiver
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+95            android:directBootAware="false"
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+96            android:enabled="true"
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+97            android:exported="true"
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+98            android:permission="android.permission.DUMP" >
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+103                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+106                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+109                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jaykay/.gradle/caches/9.3.1/transforms/1b073f0615a3997870494f40e655df04/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+110            </intent-filter>
+111        </receiver>
+112    </application>
+113
+114</manifest>

@@ -1,3 +1,2 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# Ignore macOS metadata only
+.DS_Store

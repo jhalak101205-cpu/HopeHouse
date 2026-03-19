@@ -1,1 +1,2 @@
-/build
+# Ignore macOS metadata only
+.DS_Store

@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_activity_events.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/activity_events.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_activity_food_rescue.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/activity_food_rescue.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_activity_donation.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/activity_donation.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_activity_volunteer.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/activity_volunteer.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.hopehouse.app-debug-34:/layout_activity_login_signup.xml.flat",
+        "source": "com.example.hopehouse.app-main-36:/layout/activity_login_signup.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/xml_backup_rules.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_activity_profile.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_item_cause.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/item_cause.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_item_ngo.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/item_ngo.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_item_event.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/item_event.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_item_food_post.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/item_food_post.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_item_volunteer_opportunity.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/item_volunteer_opportunity.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.hopehouse.app-debug-34:/layout_activity_signup.xml.flat",
+        "source": "com.example.hopehouse.app-main-36:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_activity_ngo_detail.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/activity_ngo_detail.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_activity_home.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_activity_ngo_listing.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/activity_ngo_listing.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/layout_activity_login_signup.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/layout/activity_login_signup.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/menu_home_bottom_nav.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/menu/home_bottom_nav.xml"
+    },
+    {
+        "merged": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-debug-34:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/jaykay/.gradle/daemon/9.3.1/com.example.hopehouse.app-main-36:/drawable/ic_launcher_foreground.xml"
+    }
+]
